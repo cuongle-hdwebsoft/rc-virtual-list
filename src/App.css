@@ -1,0 +1,32 @@
+* {
+  box-sizing: inherit;
+  font-family: Monaco;
+}
+
+#root {
+  display: block;
+}
+
+html, body {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.inner-container {
+  height: 300px;
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #f2f2f2;
+  overflow-y: scroll;
+}
+
+.rc-item {
+  font-size: 12px;
+}

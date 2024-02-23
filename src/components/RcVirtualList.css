@@ -1,0 +1,10 @@
+.rc-container {
+  position: relative;
+}
+
+.rc-item {
+  height: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
